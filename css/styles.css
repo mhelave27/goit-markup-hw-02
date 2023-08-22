@@ -209,3 +209,18 @@ button {
     line-height: 24px;
     letter-spacing: 0.64px;
 }
+
+.project-title {
+    color: var(--navyblue, #2E2F42);      
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.4px;
+}
+
+.project-description {
+    color: var(--slate, #434455); 
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.32px;
+}
