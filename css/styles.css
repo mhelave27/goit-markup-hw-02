@@ -20,6 +20,24 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul {
+    margin: 0;
+    padding: 0;
+}
+
 .nav-logo {
     text-decoration: none;
 }
@@ -28,9 +46,34 @@ ul {
     list-style-type: none;
 }
 
-.solutions {
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+address {
     font-style: normal;
-    font-weight: 700;
+}
+
+
+.nav-link {
+    color: var(--navyblue, #2E2F42);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    /* 150% */
+    letter-spacing: 0.32px;
+}
+
+.address-link {
+    color: var(--slate, #434455);
+    font-size: 16px;
+    line-height: 24px;
+     /* 150% */
+    letter-spacing: 0.32px;
+}
+
+.hero-heading {
     font-size: 56px;
     line-height: 60px;
     letter-spacing: 1.12px;
@@ -39,50 +82,52 @@ ul {
     background-color: var(--navyblue, #2E2F42);
 }
 
-.blue-button {
-    background-color: blue;
+.hero-button {
+    background-color: var(--iris);
     color: white;
-    cursor: pointer;
+    outline: none;
+    border: unset;
+    padding: 16px 32px;
+    border-radius: 4px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    /* 150% */
+    letter-spacing: 0.64px;
+    cursor: pointer;   
 }
 
-.features-h3,
-.gadget-h3 {
+.features-title, .team-name {
     color: var(--navyblue, #2E2F42);
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24px;
+    /* 120% */
+    letter-spacing: 0.4px;
 }
 
-.features-p,
-.gadget-p {
+.features-description, .team-position {
     color: var(--slate, #434455);
+    font-size: 16px;
+    line-height: 24px;
+    /* 150% */
+    letter-spacing: 0.32px;
 }
 
-.post-title {
+.gadgets-title, .team-title {
+    color: var(--navyblue, #2E2F42);
+    text-align: center;
     font-size: 36px;
-    font-style: normal;
-    font-weight: 700;
     line-height: 40px;
     letter-spacing: 0.72px;
     text-transform: capitalize;
-    text-align: center;
-    color: var(--navyblue, #2E2F42);
-}
-
-.gadget-h3,
-.gadget-p {
-    text-align: center;
-}
-
-.main-footer {
-    color: #F4F4FD;
-    background-color: #2E2F42;
-    font-size: 16px;
-    font-weight: 400;
 }
 
 .colored {
     color: var(--iris, #4D5AE5);
     font-family: Raleway;
     font-size: 18px;
-    font-style: normal;
     font-weight: 800;
     line-height: 21px;
     letter-spacing: 0.54px;
@@ -93,7 +138,6 @@ ul {
     color: var(--navyblue, #2E2F42);
     font-family: Raleway;
     font-size: 18px;
-    font-style: normal;
     font-weight: 800;
     line-height: 21px;
     letter-spacing: 0.54px;
@@ -104,28 +148,64 @@ ul {
     color: var(--cloud, #F4F4FD);
     font-family: Raleway;
     font-size: 18px;
-    font-style: normal;
     font-weight: 800;
-    line-height: 21px;
+     line-height: 21px;
+    /* 116.667% */
     letter-spacing: 0.54px;
     text-transform: uppercase;
+}
+.footer-description {
+    color: var(--cloud, #F4F4FD);
+    font-size: 16px;
+    line-height: 24px;
+    /* 150% */
+    letter-spacing: 0.32px;
+}
+
+.main-footer {
+    background: var(--navyblue, #2E2F42);
 }
 
 .header-page-link {
     color: var(--slate);
 }
-/* PORTFOLIO */
+/* PORTFOLIO HTML*/
 
 button {
     cursor: pointer;
-    color: #4D5AE5;
-    background-color: #F4F4FD;
-    border: none;
-    
+}
+
+.portfolio-button {
+    border-radius: 4px;
+    border: 1px solid var(--cornflower, #E7E9FC);
+    background: var(--cloud, #F4F4FD);
+    padding: 12px 24px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    text-align: center;
+    color: var(--iris, #4D5AE5);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.64px;
 }
 
 .blue {
-    cursor: pointer;
-    background-color: #4D5AE5;
-    color: #F4F4FD
+    border-radius: 4px;
+    background: var(--ocean, #404BBF);
+    box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12), 0px 2px 1px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.10);
+    color: var(--white, #FFF);
+    text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    padding: 12px 24px;
+    outline: none;
+    border: unset;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.64px;
 }
