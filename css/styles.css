@@ -96,8 +96,12 @@ address {
     /* 150% */
     letter-spacing: 0.64px;
     cursor: pointer;   
+    font-family: inherit;
 }
 
+.hero-button:hover {
+    background-color: var(--ocean, #404BBF);
+}
 .features-title, .team-name {
     color: var(--navyblue, #2E2F42);
     font-size: 20px;
@@ -190,6 +194,13 @@ button {
     font-weight: 500;
     line-height: 24px;
     letter-spacing: 0.64px;
+    font-family: inherit;
+}
+
+.portfolio-button:hover {
+    color: var(--white, #FFF);
+    background: var(--ocean, #404BBF);
+    border: var(--ocean, #404BBF);
 }
 
 .blue {
@@ -208,6 +219,12 @@ button {
     font-weight: 500;
     line-height: 24px;
     letter-spacing: 0.64px;
+    font-size: inherit;
+}
+
+.blue:hover{
+    background: var(--iris, #4d5ae5);
+    box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12), 0px 2px 1px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.10);
 }
 
 .project-title {
