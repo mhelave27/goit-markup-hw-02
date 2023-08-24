@@ -57,7 +57,7 @@ address {
 
 
 .nav-link {
-    color: var(--navyblue, #2E2F42);
+    color: var(--navyblue);
     font-size: 16px;
     font-weight: 500;
     line-height: 24px;
@@ -65,8 +65,11 @@ address {
     letter-spacing: 0.32px;
 }
 
+.nav-link:hover, .address-link:hover{
+    color:var(--ocean);
+}
 .address-link {
-    color: var(--slate, #434455);
+    color: var(--slate);
     font-size: 16px;
     line-height: 24px;
      /* 150% */
@@ -78,13 +81,13 @@ address {
     line-height: 60px;
     letter-spacing: 1.12px;
     text-align: center;
-    color: white;
-    background-color: var(--navyblue, #2E2F42);
+    color: var(--white);
+    background-color: var(--navyblue);
 }
 
 .hero-button {
     background-color: var(--iris);
-    color: white;
+    color: var(--white);
     outline: none;
     border: unset;
     padding: 16px 32px;
@@ -100,10 +103,10 @@ address {
 }
 
 .hero-button:hover {
-    background-color: var(--ocean, #404BBF);
+    background-color: var(--ocean);
 }
 .features-title, .team-name {
-    color: var(--navyblue, #2E2F42);
+    color: var(--navyblue);
     font-size: 20px;
     font-weight: 500;
     line-height: 24px;
@@ -112,7 +115,7 @@ address {
 }
 
 .features-description, .team-position {
-    color: var(--slate, #434455);
+    color: var(--slate);
     font-size: 16px;
     line-height: 24px;
     /* 150% */
@@ -120,7 +123,7 @@ address {
 }
 
 .gadgets-title, .team-title {
-    color: var(--navyblue, #2E2F42);
+    color: var(--navyblue);
     text-align: center;
     font-size: 36px;
     line-height: 40px;
@@ -129,7 +132,7 @@ address {
 }
 
 .colored {
-    color: var(--iris, #4D5AE5);
+    color: var(--iris);
     font-family: Raleway;
     font-size: 18px;
     font-weight: 800;
@@ -139,7 +142,7 @@ address {
 }
 
 .black {
-    color: var(--navyblue, #2E2F42);
+    color: var(--navyblue);
     font-family: Raleway;
     font-size: 18px;
     font-weight: 800;
@@ -149,7 +152,7 @@ address {
 }
 
 .white {
-    color: var(--cloud, #F4F4FD);
+    color: var(--cloud);
     font-family: Raleway;
     font-size: 18px;
     font-weight: 800;
@@ -159,7 +162,7 @@ address {
     text-transform: uppercase;
 }
 .footer-description {
-    color: var(--cloud, #F4F4FD);
+    color: var(--cloud);
     font-size: 16px;
     line-height: 24px;
     /* 150% */
@@ -167,7 +170,7 @@ address {
 }
 
 .main-footer {
-    background: var(--navyblue, #2E2F42);
+    background: var(--navyblue);
 }
 
 .header-page-link {
@@ -181,14 +184,14 @@ button {
 
 .portfolio-button {
     border-radius: 4px;
-    border: 1px solid var(--cornflower, #E7E9FC);
-    background: var(--cloud, #F4F4FD);
+    border: 1px solid var(--cornflower);
+    background: var(--cloud);
     padding: 12px 24px;
     justify-content: center;
     align-items: center;
     display: flex;
     text-align: center;
-    color: var(--iris, #4D5AE5);
+    color: var(--iris);
     text-align: center;
     font-size: 16px;
     font-weight: 500;
@@ -198,16 +201,17 @@ button {
 }
 
 .portfolio-button:hover {
-    color: var(--white, #FFF);
-    background: var(--ocean, #404BBF);
-    border: var(--ocean, #404BBF);
+    color: var(--white);
+    background: var(--ocean);
+    border: var(--ocean);
+    box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12), 0px 2px 1px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.10);
 }
 
 .blue {
     border-radius: 4px;
-    background: var(--ocean, #404BBF);
+    background: var(--ocean);
     box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12), 0px 2px 1px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.10);
-    color: var(--white, #FFF);
+    color: var(--white);
     text-align: center;
     align-items: center;
     display: flex;
@@ -223,12 +227,12 @@ button {
 }
 
 .blue:hover{
-    background: var(--iris, #4d5ae5);
+    background: var(--iris);
     box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12), 0px 2px 1px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.10);
 }
 
 .project-title {
-    color: var(--navyblue, #2E2F42);      
+    color: var(--navyblue);      
     font-size: 20px;
     font-weight: 500;
     line-height: 24px;
@@ -236,7 +240,7 @@ button {
 }
 
 .project-description {
-    color: var(--slate, #434455); 
+    color: var(--slate); 
     font-size: 16px;
     line-height: 24px;
     letter-spacing: 0.32px;
